@@ -1,0 +1,49 @@
+$game-width: 500px;
+$game-height: 700px;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#game {
+
+    width: $game-width;
+    height: $game-height;
+    background-color: aqua;
+    border: 3px solid lightslategray;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+
+    & #character {
+        width: 20px;
+        height: 20px;
+        background-color: rgb(223, 19, 19);
+        z-index: 100;
+        border-radius: 50%;
+        position: relative;
+        top: 400px;
+        left:100px;
+        z-index: 100;
+    }
+    & .floorClass{
+        width: 495px;
+        height: 20px;
+        position: relative;
+        top: 100px;
+        margin-top: -20px;
+        background-color: gray;
+    }
+    & .holeClass{
+        width: 40px;
+        height: 20px;
+        position: relative;
+        top: 100px;
+        margin-top: -20px;
+        background-color: aqua;
+    }
+
+
+}
