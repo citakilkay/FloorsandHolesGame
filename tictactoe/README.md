@@ -13,7 +13,7 @@ About [The Minimax Algorithm](https://www.freecodecamp.org/news/how-to-make-your
 
 ## Toolbox
  - HTML
- - CSS
+ - SCSS
  - Javascript
  - Jquery
  - Bootstrap
